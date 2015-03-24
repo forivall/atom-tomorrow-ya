@@ -1,7 +1,7 @@
 {
   "name": "tomorrow-ya",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Yet Another Atom port of the Tomorrow theme",
   "repository": "https://github.com/forivall/atom-tomorrow-ya",
