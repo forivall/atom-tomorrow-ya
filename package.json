@@ -1,10 +1,10 @@
 {
-  "name": "tomorrow",
+  "name": "tomorrow-ya",
   "theme": "syntax",
   "version": "1.0.0",
   "private": false,
-  "description": "An Atom port of the vim Tomorrow theme",
-  "repository": "https://github.com/speric/atom-tomorrow",
+  "description": "Yet Another Atom port of the Tomorrow theme",
+  "repository": "https://github.com/forivall/atom-tomorrow-ya",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
