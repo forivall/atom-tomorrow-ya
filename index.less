@@ -1,99 +1,103 @@
+
+@import "syntax-variables";
+
 atom-text-editor {
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: @white;
+  color: @syntax-text-color;
 }
 
-atom-text-editor::shadow .cursor {
-  border-color: #AEAFAD;
-}
-
-atom-text-editor::shadow .highlights .highlight.selection .region {
-  background-color: #DDD;
-}
-
-atom-text-editor::shadow .line-number.cursor-line-no-selection, atom-text-editor :host.is-focused .line.cursor-line {
-  background-color: #EEE;
+atom-text-editor::shadow {
+  .cursor {
+    border-color: @gray;
+  }
+  .cursor-line {
+    background: @slight-gray !important;
+  }
+  .highlights .highlight.selection .region {
+    background-color: @very-light-gray;
+  }
+  .line-number.cursor-line-no-selection, atom-text-editor :host.is-focused .line.cursor-line {
+    background-color: @slight-gray;
+  }
 }
 
 .comment {
-  color: #969696;
+  color: @dark-gray;
 }
 
 .keyword.operator.class, .constant.other, .source.php.embedded.line {
-  color: #666969;
+  color: @darky-gray;
 }
 
 .variable, .support.other.variable, .string.other.link, .string.regexp, .entity.name.tag, .entity.other.attribute-name, .meta.tag, .declaration.tag, .markup.deleted.git_gutter {
-  color: #DE2316;
+  color: @red;
 }
 
 .constant.numeric, .constant.language, .support.constant, .constant.character, .variable.parameter, .punctuation.section.embedded, .keyword.other.unit {
-  color: #FA9725;
+  color: @orange;
 }
 
 .variable.language {
-  color: #FA9725;
+  color: @orange;
 }
 
 .entity.name.class, .entity.name.type.class, .support.type, .support.class {
-  // color: #E3B829;
-  color: #c99e00;
-  // color: #eab700;
+  color: @amber;
 }
 
 .string, .constant.other.symbol, .entity.other.inherited-class, .entity.name.filename, .markup.heading, .markup.inserted.git_gutter {
-  color: #729443;
+  color: @green;
 }
 
 .keyword.operator, .constant.other.color {
-  color: #545454;
+  color: @darker-grey;
 }
 
 .entity.name.function, .meta.function-call, .support.function, .keyword.other.special-method, .meta.block-level, .markup.changed.git_gutter {
-  color: #4271AE;
+  color: @blue;
 }
 
 .keyword, .storage, .storage.type {
-  color: #9878CC;
+  color: @purple;
 }
 
 .invalid {
-  color: #FFFFFF;
-  background-color: #e33517;
+  color: @white;
+  background-color: @red;
 }
 
 .meta.separator {
-  color: #FFFFFF;
-  background-color: #0777B8;
+  color: @white;
+  background-color: @cyan;
 }
 
 .invalid.deprecated {
-  color: #FFFFFF;
-  background-color: #9879BA;
+  color: @white;
+  background-color: @purple;
 }
 
 .markup.inserted.diff, .markup.deleted.diff, .meta.diff.header.to-file, .meta.diff.header.from-file {
-  color: #FFFFFF;
+  color: @white;
 }
 
 .markup.inserted.diff, .meta.diff.header.to-file {
-  background-color: #729443;
+  background-color: @light-green;
 }
 
 .markup.deleted.diff, .meta.diff.header.from-file {
-  background-color: #DE2316;
+  background-color: @light-red;
 }
 
 .meta.diff.header.from-file, .meta.diff.header.to-file {
-  color: #FFFFFF;
-  background-color: #0676CC;
+  color: @white;
+  background-color: @light-blue;
 }
 
 .meta.diff.range {
   font-style: italic;
-  color: #3e999F;
+  color: @cyan;
 }
 
 .invisible-character, .indent-guide {
-  color: #CCC;
+  color: @light-gray;
 }
