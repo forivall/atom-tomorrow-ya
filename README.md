@@ -2,7 +2,7 @@
 
 Tomorrow Yet Again is another Atom port of the Tomorrow theme, for syntax.
 
-![Tomorrow Syntax Theme](./screenshot.png)
+![Tomorrow Syntax Theme](https://raw.githubusercontent.com/forivall/atom-tomorrow-ya/master/screenshot.png)
 
 ### Installation
 
