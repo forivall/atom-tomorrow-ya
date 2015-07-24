@@ -4,6 +4,7 @@
   "version": "1.0.2",
   "private": false,
   "description": "Yet Another Atom port of the Tomorrow theme",
+  "keywords": ["syntax", "light", "tomorrow", "colorful", "colourful", "rainbow", "contrast"],
   "repository": "https://github.com/forivall/atom-tomorrow-ya",
   "license": "MIT",
   "engines": {
